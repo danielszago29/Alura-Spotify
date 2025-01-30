@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="SRC/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/side-footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
     <title>Spotify Imersão</title>
@@ -14,7 +15,7 @@
         <nav class="sidebar-navegation">
             <div class="logo">
                 <a href="#">
-                    <img src="assets/icons/icons/logo-spotify.png" alt="logo-spotify">
+                    <img src="src/assets/icons/icons/logo-spotify.png" alt="logo-spotify">
                 </a>
             
                 <ul>
@@ -63,5 +64,32 @@
             </div>
         </div>
     </div>
+    <main>
+        <div class="main-container">
+            <nav class="header-navegation">
+                <div class="navegation">
+                    <button class="arrow-left">
+                        <img src="SRC/assets/icons/icons/small-left.png" alt="seta-esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="SRC/assets/icons/icons/small-right.png" alt="seta-direita">
+                    </button>
+                    <div class="header-search">
+                        <img src="SRC/assets/icons/icons/search.png" alt="lupa">
+                        <input type="text" id="search-input" maxlength="800" placeholder="Qual musica ou artista você quer ouvir ?">
+                    </div>
+
+                    <div class="header-login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
